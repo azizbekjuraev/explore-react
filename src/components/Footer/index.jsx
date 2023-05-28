@@ -20,10 +20,10 @@ const Footer = () => {
             <Box.FooterLink href="#">
               <h2 style={{ marginBottom: "0.5rem" }}>Follow Us On:</h2>
               <Box.Icons>
-                {SocialIcons.map((icon) => {
+                {SocialIcons.map(({ img, id }) => {
                   return (
-                    <li key={icon.id}>
-                      <img src={icon.img} alt="" />
+                    <li key={id}>
+                      <img src={img} alt="icon" />
                     </li>
                   );
                 })}
