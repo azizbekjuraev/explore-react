@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "../NewsLetter/style.js";
-const NewsLetter = () => {
+import { Container } from "../Newsletter/style.js";
+const Newsletter = () => {
   return (
     <Container>
       <Container.Group>
@@ -12,4 +12,4 @@ const NewsLetter = () => {
   );
 };
 
-export default NewsLetter;
+export default Newsletter;
