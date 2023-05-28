@@ -72,7 +72,6 @@ Box.Grid = styled.div`
 `;
 
 Box.Item = styled.div`
-  border: 1px solid green;
   width: 100px;
   height: 100px;
   display: flex;
