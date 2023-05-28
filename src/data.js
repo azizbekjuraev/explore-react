@@ -128,7 +128,7 @@ export const cardInfo = [
 
 export const SocialIcons = [
   {
-    img: "/src/assets/instagram.svg",
+    img: "../src/assets/instagram.svg",
     id: 1,
   },
   {

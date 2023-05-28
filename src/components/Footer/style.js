@@ -4,8 +4,6 @@ const Box = styled.div`
   /* padding: 80px 60px; */
   background: linear-gradient(0deg, #0c1218, #0c1218);
   bottom: 0;
-  width: 100%;
-  margin-left: 130px;
   @media (max-width: 1440px) {
     padding: 70px 30px;
   }
@@ -17,7 +15,7 @@ Box.Container = styled.div`
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
-  /* padding: 0 130px; */
+  padding: 0 80px 0 40px;
 `;
 
 Box.Column = styled.div`
