@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/Logo- 1.png";
 import { Box } from "../Footer/style.js";
 import { SocialIcons } from "../../data";
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Explore Column */}
           <Box.Column>
             <Box.Heading>
-              <img src="./src/assets/Logo- 1.png" alt="logo" />
+              <img src={logo} alt="logo" />
               <h2>Explore</h2>
             </Box.Heading>
             <Box.FooterLink href="#">
